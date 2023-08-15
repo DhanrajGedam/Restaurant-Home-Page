@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+
+#logo {
+    margin: 35px 40px;
+}
+
+#logo img {
+    margin: -92px -100px;
+
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    margin-left: 45px;
+    display: block;
+    color: white;
+    padding: 19px 26px;
+    text-decoration: none;
+    border-radius: 8px;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: #edfdff;
+}
+
+#navbar #logo img {
+    width: 140px;
+    margin: -38px -39px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 865px;
+    padding: 5px 200px;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+}
+
+#home::before {
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+.hprimary {
+    font-size: 4rem;
+    padding: 24px;
+    font-family: 'Bree Serif', serif;
+}
+
+.hsecondary {
+    font-size: 2rem;
+    padding: 15px;
+    font-family: 'Bree Serif', serif;
+}
+
+.box p {
+    font-family: 'Bree Serif', serif;
+}
+
+.box {
+    margin: 0px 500px;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    text-align: center;
+    color: #edfdff;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #abc5c9;
+    color: #edfdff;
+    margin: 15px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#services .box {
+    border: 2px solid red;
+    margin: 4px 6px;
+    padding: 34px;
+    background: #e2f8ff;
+    border-radius: 8px;
+
+}
+
+#services .box img {
+    height: 150px;
+    display: block;
+    margin: auto;
+
+}
+
+#services {
+    margin: 0px 35%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#services-conatiner {
+    background-color: #edfdff;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-section {
+   
+    margin-top: -28px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../bg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 32%;
+    z-index: -1;
+    opacity: 0.75;
+}
+
+#clients img {
+    height: 130px;
+
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+    background: url('../contact.jpg') no-repeat center center/cover;
+}
+
+.client-item {
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+}
+
+#contact-box input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#contact-box ::placeholder {
+    font-family: 'Bree Serif', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    font-family: 'Bree Serif', serif;
+    display: block;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #abc5c9;
+    color: #edfdff;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover
+{
+    color: black;
+    font-weight: bold;
+}
+input{
+    border: none;
+}
